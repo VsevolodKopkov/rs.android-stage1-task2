@@ -8,7 +8,8 @@ class Task2TimeConverterTest {
 
     @Test
     fun testTimeConverter1() {
-        assertEquals("eleven o' clock", converter.toTextFormat("11", "00"))
+        assertEquals("eleven o' " +
+                "clock", converter.toTextFormat("11", "00"))
     }
 
     @Test
