@@ -14,7 +14,6 @@ class DateFormatter {
 //
 //        c.set(year.toInt(), month.toInt()-1, day.toInt())
 //        return SimpleDateFormat("dd MMMM, EEEE", Locale("RU")).format(Date(c.timeInMillis))
-
     fun toTextDay(day: String, month: String, year: String): String {
 
         val calendar = Calendar.getInstance(Locale("RU")).apply {
